@@ -35,6 +35,7 @@
 
   .top-text h4{
     margin-bottom: 20px;
+    margin-top: 20px;
   }
 .link-btn{
   text-decoration: none;
@@ -46,6 +47,9 @@
   border-radius: 5px;
   font-weight: 700;
   text-transform: uppercase;
+}
+.top-text p{
+  line-height: 30px;
 }
 
 /* dream area style */
@@ -69,10 +73,66 @@
   margin-bottom: 20px;
   font-size: 20px;
 }
+.dream-text p{
+  line-height: 30px;
+}
 .dream-img{
   width: 50%;
 }
 .dream-img img{
   width: 100%;
   padding-left: 5%;
+}
+
+/* Experiences area style */
+.exp-area {
+  padding-top: 100px;
+  
+
+}
+.exp-area h2{
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.Experiences{
+  display: flex;
+  background-image: url('images/exp-bg.png');
+  background-repeat: no-repeat;
+background-position: left;
+  padding-left: 5%;
+}
+.full-stack{
+  width: 40%;
+  padding-left: 5%;
+  box-shadow: 10px 10px 10px gray;
+  padding: 30px;
+  border-left: 10px solid tomato;
+}
+.blue{
+  border-left: 10px solid blue;
+}
+.full-stack h2{
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.full-stack h4{
+  color: orange;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.full-stack p{
+  width: 80%;
+  line-height: 25px;
+}
+.mr-30{
+  margin-right: 30px;
+}
+footer{
+  padding-top: 100px;
+}
+
+footer p{
+  text-align: center;
+  color: #777;
 }
